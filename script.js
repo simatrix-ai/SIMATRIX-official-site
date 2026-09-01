@@ -7,6 +7,7 @@ const translations = {
   zh: {
     htmlLang: "zh-CN",
     common: {
+      brandName: "SIMATRIX",
       brandSubtitle: "共生秩序",
       nav: ["首页", "能力", "实践", "关于我们", "联系"],
       footerCopyright: "© 2026 上海共生秩序人工智能技术有限公司",
@@ -144,20 +145,21 @@ const translations = {
   en: {
     htmlLang: "en",
     common: {
+      brandName: "SiMatrix",
       brandSubtitle: "Symbiotic Matrix",
       nav: ["Home", "Capabilities", "Work", "About Us", "Contact"],
       footerCopyright: "© 2026 Shanghai Symbiotic Matrix Artificial Intelligence Technology Co., Ltd.",
-      footerTagline: "SIMATRIX / Symbiotic Matrix",
+      footerTagline: "SiMatrix / Symbiotic Matrix",
     },
     pages: {
       home: {
-        title: "SIMATRIX | Human-AI Co-evolution Systems",
-        description: "SIMATRIX builds human-AI co-evolution systems for organizations, workflows, products, and real-world scenarios.",
-        hero: ["Symbiotic Matrix", "Building a new world system for human-AI co-evolution", "SIMATRIX embeds AI into organizations, workflows, products, and real-world scenarios to create sustainable human-machine collaboration systems.", "Explore our capabilities", "Contact us"],
+        title: "SiMatrix | Human-AI Co-evolution Systems",
+        description: "SiMatrix builds human-AI co-evolution systems for organizations, workflows, products, and real-world scenarios.",
+        hero: ["Symbiotic Matrix", "Building a new world system for human-AI co-evolution", "SiMatrix embeds AI into organizations, workflows, products, and real-world scenarios to create sustainable human-machine collaboration systems.", "Explore our capabilities", "Contact us"],
         build: {
           kicker: "What We Build",
           title: "We do not build isolated tools. We build intelligent systems that keep running.",
-          lead: "From organizational context and Agent workflows to permission boundaries and scenario integration, SIMATRIX focuses on how AI enters real work rather than staying at the demo layer.",
+          lead: "From organizational context and Agent workflows to permission boundaries and scenario integration, SiMatrix focuses on how AI enters real work rather than staying at the demo layer.",
           cards: [
             { title: "AI-native organization systems", body: "Redesign how organizations work around human judgment, AI execution, context flow, and auditable feedback." },
             { title: "Agent workflow infrastructure", body: "Build Dispatchers, Agents, Skills, queues, permission boundaries, and automation mechanisms." },
@@ -281,6 +283,7 @@ const translations = {
   ja: {
     htmlLang: "ja",
     common: {
+      brandName: "SIMATRIX",
       brandSubtitle: "共生秩序",
       nav: ["ホーム", "能力", "実践", "私たちについて", "お問い合わせ"],
       footerCopyright: "© 2026 上海共生秩序人工知能技術有限公司",
@@ -418,6 +421,7 @@ const translations = {
   ko: {
     htmlLang: "ko",
     common: {
+      brandName: "SIMATRIX",
       brandSubtitle: "공생 질서",
       nav: ["홈", "역량", "실천", "회사 소개", "문의"],
       footerCopyright: "© 2026 상하이 공생질서 인공지능 기술 유한회사",
@@ -651,6 +655,7 @@ const setContactInfo = (info) => {
 
 const setCommon = (languagePack) => {
   const { common } = languagePack;
+  setText(".brand-name strong", common.brandName);
   setText(".brand-name span", common.brandSubtitle);
   [".nav-links > a[href='index.html']", ".nav-links > a[href='capabilities.html']", ".nav-links > a[href='work.html']", ".nav-links > a[href='about.html']", ".nav-links > a[href='contact.html']"].forEach((selector, index) => {
     setText(selector, common.nav[index]);

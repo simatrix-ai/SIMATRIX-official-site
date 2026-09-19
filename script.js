@@ -83,10 +83,10 @@ const translations = {
           title: "实践方向",
           lead: "这些实践不是孤立案例，而是围绕组织上下文、工具链和真实业务场景持续沉淀的系统能力。",
           cards: [
-            { title: "企业微信机器人与智能体接入", body: "通过企业微信长连接接收 @ 消息，支持群聊通知、文件发送、低风险问答和后续智能体路由。" },
-            { title: "微信消息与文件自动发送", body: "在 macOS 桌面环境中构建本地队列和监听器，实现向指定微信会话发送文字、文件和图片。" },
+            { title: "半导体行业的设计智能化", body: "面向探针卡、PCB 与测试治具等半导体研发场景，将工程规则、设计资料与 AI 辅助分析接入设计流程，提升方案迭代与验证效率。" },
+            { title: "制造业 ERP + MES 数字化定制", body: "围绕订单、物料、工序、扫码、工位、报工、质量与项目进度，按制造现场需求定制 ERP + MES 一体化系统。" },
+            { title: "企业微信与微信消息智能接入", body: "结合企业微信长连接与微信本地消息能力，支持通知、问答、文字、文件和图片发送及后续智能体路由。" },
             { title: "人类与 AI 双工作区", body: "以人类文件夹承载人类可读资料，以 AI 工作区承载智能体运行逻辑，让协作过程可追溯。" },
-            { title: "制造 ERP 数字化原型", body: "围绕订单、工序、扫码、工位、报工与项目进度，设计适用于中小制造现场的数字化系统。" },
             { title: "AI 辅助研发支持", body: "把技术资料、客户访谈、行业文档和交付材料转化为结构化方案与可复用知识资产。" },
             { title: "组织流程与模板体系", body: "沉淀会议纪要、公司介绍、项目文档、日报和管理台账，让 AI 能够稳定接入组织日常工作。" },
           ],
@@ -116,7 +116,7 @@ const translations = {
           bio: "教授、博士生导师，长期从事智能信息处理、无线通信、边缘智能、联邦学习与数字孪生研究。作为 SiMatrix 资深技术顾问，为公司提供算法与技术路线评审、前沿研究连接及产学研协作支持。",
           metricsLabel: "代表性成果数据",
           metrics: [["3", "主持国家自然科学基金"], ["80+", "学术论文"], ["23", "专利及申请"]],
-          award: "代表性荣誉：2019年度浙江省科技进步二等奖（排名第三）",
+          affiliation: "浙江大学信息与电子工程学院 · 教授、博士生导师",
         },
         contact: {
           kicker: "联系",
@@ -233,10 +233,10 @@ const translations = {
           title: "Practice directions",
           lead: "These are not isolated cases. They are system capabilities accumulated around organizational context, toolchains, and real business scenarios.",
           cards: [
-            { title: "WeCom Bot and Agent integration", body: "Receive @ messages through WeCom long connections, supporting group notifications, file sending, low-risk Q&A, and later Agent routing." },
-            { title: "WeChat messages and file sending", body: "Build a local queue and watcher on macOS to send text, files, and images to specified WeChat conversations." },
+            { title: "Semiconductor design intelligence", body: "Bring engineering rules, design data, and AI-assisted analysis into semiconductor R&D workflows such as probe cards, PCBs, and test fixtures to improve iteration and verification efficiency." },
+            { title: "Custom manufacturing ERP + MES digitization", body: "Customize integrated ERP + MES systems around orders, materials, operations, scanning, stations, reporting, quality, and project progress." },
+            { title: "WeCom and WeChat messaging integration", body: "Combine WeCom long connections with local WeChat messaging to support notifications, Q&A, text, file and image delivery, and subsequent Agent routing." },
             { title: "HUMAN & AI dual workspace", body: "Use the HUMAN folder for human-readable materials and the AI workspace for Agent runtime logic, making collaboration traceable." },
-            { title: "Manufacturing ERP digital prototype", body: "Design digital workflows for orders, operations, scans, stations, reporting, and project progress in small and midsize manufacturing." },
             { title: "AI-assisted R&D support", body: "Transform technical materials, customer interviews, industry documents, and delivery assets into structured plans and reusable knowledge." },
             { title: "Organizational process and templates", body: "Build meeting minutes, company introductions, project documents, daily reports, and management ledgers so AI can reliably enter daily operations." },
           ],
@@ -266,7 +266,7 @@ const translations = {
           bio: "A professor and doctoral supervisor whose research spans intelligent information processing, wireless communications, edge intelligence, federated learning, and digital twins. As a senior technical advisor to SiMatrix, he supports algorithm and technical roadmap reviews, frontier research connections, and academic-industry collaboration.",
           metricsLabel: "Representative achievement metrics",
           metrics: [["3", "National Natural Science Foundation projects led"], ["80+", "Academic papers"], ["23", "Patents and applications"]],
-          award: "Representative recognition: Second Prize, Zhejiang Provincial Science and Technology Progress Award, 2019 (ranked third)",
+          affiliation: "College of Information Science and Electronic Engineering, Zhejiang University · Professor and Doctoral Supervisor",
         },
         contact: {
           kicker: "Contact",
@@ -383,10 +383,10 @@ const translations = {
           title: "実践方向",
           lead: "これらは孤立した事例ではなく、組織コンテキスト、ツールチェーン、実際の業務シーンを中心に蓄積されるシステム能力です。",
           cards: [
-            { title: "WeCom ボットとエージェントの接続", body: "WeCom の長接続で @ メッセージを受信し、通知、ファイル送信、低リスクの質疑応答、後続エージェントのルーティングを支援します。" },
-            { title: "WeChat メッセージとファイル自動送信", body: "macOS 上でローカルキューと監視処理を構築し、指定した WeChat 会話にテキスト、ファイル、画像を送信します。" },
+            { title: "半導体業界の設計知能化", body: "プローブカード、PCB、テスト治具などの半導体研究開発に、設計ルール、技術資料、AI 支援分析を組み込み、設計反復と検証の効率を高めます。" },
+            { title: "製造業向け ERP + MES デジタル化カスタマイズ", body: "受注、資材、工程、スキャン、工位、実績報告、品質、プロジェクト進捗を対象に、ERP + MES 一体型システムを現場に合わせて構築します。" },
+            { title: "WeCom・WeChat メッセージ連携", body: "WeCom の長接続と WeChat のローカルメッセージ機能を統合し、通知、質疑応答、テキスト、ファイル、画像送信、後続エージェントのルーティングを支援します。" },
             { title: "人間と AI の二重ワークスペース", body: "人間向けフォルダは人間可読資料を、AI ワークスペースはエージェントの実行ロジックを保持し、協働過程を追跡可能にします。" },
-            { title: "製造 ERP デジタルプロトタイプ", body: "受注、工程、スキャン、工位、報告、進捗を中心に、中小製造現場に適したデジタルシステムを設計します。" },
             { title: "AI による研究開発支援", body: "技術資料、顧客インタビュー、業界文書、納品資料を構造化された計画と再利用可能な知識資産に変換します。" },
             { title: "組織プロセスとテンプレート体系", body: "議事録、会社紹介、プロジェクト文書、日報、管理台帳を整備し、AI が日常業務に安定して入れるようにします。" },
           ],
@@ -416,7 +416,7 @@ const translations = {
           bio: "教授・博士課程指導教員として、知能情報処理、無線通信、エッジ知能、連合学習、デジタルツインを長年研究しています。SiMatrix の上級技術顧問として、アルゴリズムと技術ロードマップの評価、先端研究との接続、産学連携を支援します。",
           metricsLabel: "主な実績データ",
           metrics: [["3", "国家自然科学基金プロジェクトを主宰"], ["80+", "学術論文"], ["23", "特許および出願"]],
-          award: "主な受賞：2019年度浙江省科学技術進歩賞二等賞（第3位）",
+          affiliation: "浙江大学 情報電子工学学院 · 教授・博士課程指導教員",
         },
         contact: {
           kicker: "お問い合わせ",
@@ -533,10 +533,10 @@ const translations = {
           title: "실천 방향",
           lead: "이 실천들은 고립된 사례가 아니라 조직 컨텍스트, 툴체인, 실제 업무 시나리오를 중심으로 축적되는 시스템 역량입니다.",
           cards: [
-            { title: "기업 위챗 봇과 에이전트 연결", body: "기업 위챗 장기 연결을 통해 @ 메시지를 수신하고, 그룹 알림, 파일 발송, 저위험 질의응답, 후속 에이전트 라우팅을 지원합니다." },
-            { title: "WeChat 메시지와 파일 자동 발송", body: "macOS 환경에서 로컬 큐와 감시 프로세스를 구축해 지정된 WeChat 대화로 텍스트, 파일, 이미지를 보냅니다." },
+            { title: "반도체 산업 설계 지능화", body: "프로브 카드, PCB, 테스트 지그 등 반도체 연구개발에 설계 규칙, 기술 자료, AI 보조 분석을 연결해 설계 반복과 검증 효율을 높입니다." },
+            { title: "제조업 ERP + MES 디지털 맞춤 구축", body: "주문, 자재, 공정, 스캔, 작업대, 실적 보고, 품질, 프로젝트 진행을 중심으로 ERP + MES 통합 시스템을 현장에 맞게 구축합니다." },
+            { title: "기업 위챗 및 WeChat 메시지 통합", body: "기업 위챗 장기 연결과 WeChat 로컬 메시지 기능을 결합해 알림, 질의응답, 텍스트, 파일, 이미지 발송과 후속 에이전트 라우팅을 지원합니다." },
             { title: "사람과 AI 이중 워크스페이스", body: "사람용 폴더는 사람이 읽는 자료를, AI 워크스페이스는 에이전트 실행 로직을 담아 협업 과정을 추적 가능하게 합니다." },
-            { title: "제조 ERP 디지털 프로토타입", body: "주문, 공정, 스캔, 작업대, 보고, 프로젝트 진행을 중심으로 중소 제조 현장에 맞는 디지털 시스템을 설계합니다." },
             { title: "AI 보조 연구개발 지원", body: "기술 자료, 고객 인터뷰, 산업 문서, 납품 자료를 구조화된 방안과 재사용 가능한 지식 자산으로 전환합니다." },
             { title: "조직 프로세스와 템플릿 체계", body: "회의록, 회사 소개, 프로젝트 문서, 일일 보고, 관리 대장을 축적해 AI가 일상 업무에 안정적으로 들어오게 합니다." },
           ],
@@ -566,7 +566,7 @@ const translations = {
           bio: "교수이자 박사과정 지도교수로서 지능형 정보 처리, 무선 통신, 엣지 지능, 연합학습, 디지털 트윈을 오랫동안 연구해 왔습니다. SiMatrix 수석 기술 고문으로서 알고리즘과 기술 로드맵 검토, 첨단 연구 연계, 산학 협력을 지원합니다.",
           metricsLabel: "주요 성과 지표",
           metrics: [["3", "국가자연과학기금 과제 주관"], ["80+", "학술 논문"], ["23", "특허 및 출원"]],
-          award: "주요 수상: 2019년 저장성 과학기술진보상 2등상(3위)",
+          affiliation: "저장대학교 정보전자공학대학 · 교수·박사과정 지도교수",
         },
         contact: {
           kicker: "문의",
@@ -777,7 +777,7 @@ const setAbout = (page) => {
     setText("strong", data[0], metric);
     setText("span", data[1], metric);
   });
-  setText("#advisor .advisor-award", page.advisor.award);
+  setText("#advisor .advisor-affiliation", page.advisor.affiliation);
 };
 
 const setContact = (page) => {

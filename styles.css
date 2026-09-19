@@ -393,7 +393,7 @@ p {
 
 .advisor-heading p,
 .advisor-bio,
-.advisor-award,
+.advisor-affiliation,
 .advisor-metric span {
   color: var(--muted);
   line-height: 1.72;
@@ -429,7 +429,7 @@ p {
   font-size: 14px;
 }
 
-.advisor-award {
+.advisor-affiliation {
   font-size: 14px;
 }
 

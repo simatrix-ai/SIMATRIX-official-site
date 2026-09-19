@@ -106,6 +106,18 @@ const translations = {
             { title: "价值观", body: "共生、进化、求真、破界、向光、成事。我们重视真实问题、长期积累和能够改变现实的行动。" },
           ],
         },
+        advisor: {
+          kicker: "技术顾问与学术协作",
+          title: "让前沿研究进入真实工程判断。",
+          lead: "SiMatrix 通过外部资深技术顾问机制，为算法方向、技术路线和产学研协作补充长期专业视角。",
+          role: "资深技术顾问",
+          name: "殷锐 教授",
+          field: "智能优化与边缘智能方向",
+          bio: "教授、博士生导师，长期从事智能信息处理、无线通信、边缘智能、联邦学习与数字孪生研究。作为 SiMatrix 资深技术顾问，为公司提供算法与技术路线评审、前沿研究连接及产学研协作支持。",
+          metricsLabel: "代表性成果数据",
+          metrics: [["3", "主持国家自然科学基金"], ["80+", "学术论文"], ["23", "专利及申请"]],
+          award: "代表性荣誉：2019年度浙江省科技进步二等奖（排名第三）",
+        },
         contact: {
           kicker: "联系",
           title: "联系",
@@ -117,7 +129,7 @@ const translations = {
             ["合作方向", "AI 原生组织、智能体工作流、企业工具接入、行业智能系统"],
             ["邮箱", "contact@simatrix.cn"],
             ["电话", "15026469395"],
-            ["地址", "上海市青浦区白虬江路300号1栋1401"],
+            ["地址", "江苏省苏州市兆丰路8号江苏国际商务大厦601-6"],
           ],
         },
       },
@@ -136,7 +148,7 @@ const translations = {
             ["合作方向", "AI 原生组织、智能体工作流、企业工具接入、行业智能系统"],
             ["邮箱", "contact@simatrix.cn"],
             ["电话", "15026469395"],
-            ["地址", "上海市青浦区白虬江路300号1栋1401"],
+            ["地址", "江苏省苏州市兆丰路8号江苏国际商务大厦601-6"],
           ],
         },
       },
@@ -244,6 +256,18 @@ const translations = {
             { title: "Values", body: "Symbiosis, evolution, truth-seeking, boundary-breaking, light, and execution. We value real problems, long-term accumulation, and actions that change reality." },
           ],
         },
+        advisor: {
+          kicker: "Technical Advisor and Academic Collaboration",
+          title: "Bringing frontier research into real engineering decisions.",
+          lead: "SiMatrix works with senior external advisors to strengthen algorithm direction, technical roadmap review, and academic-industry collaboration.",
+          role: "Senior Technical Advisor",
+          name: "Professor Rui Yin",
+          field: "Intelligent optimization and edge intelligence",
+          bio: "A professor and doctoral supervisor whose research spans intelligent information processing, wireless communications, edge intelligence, federated learning, and digital twins. As a senior technical advisor to SiMatrix, he supports algorithm and technical roadmap reviews, frontier research connections, and academic-industry collaboration.",
+          metricsLabel: "Representative achievement metrics",
+          metrics: [["3", "National Natural Science Foundation projects led"], ["80+", "Academic papers"], ["23", "Patents and applications"]],
+          award: "Representative recognition: Second Prize, Zhejiang Provincial Science and Technology Progress Award, 2019 (ranked third)",
+        },
         contact: {
           kicker: "Contact",
           title: "Contact",
@@ -255,7 +279,7 @@ const translations = {
             ["Collaboration", "AI-native organizations, Agent workflows, enterprise tool integration, industry intelligent systems"],
             ["Email", "contact@simatrix.cn"],
             ["Phone", "+86 150 2646 9395"],
-            ["Address", "Room 1401, Building 1, No. 300 Baiqiujiang Road, Qingpu District, Shanghai, China"],
+            ["Address", "Room 601-6, Jiangsu International Business Building, No. 8 Zhaofeng Road, Suzhou, Jiangsu, China"],
           ],
         },
       },
@@ -274,7 +298,7 @@ const translations = {
             ["Collaboration", "AI-native organizations, Agent workflows, enterprise tool integration, industry intelligent systems"],
             ["Email", "contact@simatrix.cn"],
             ["Phone", "+86 150 2646 9395"],
-            ["Address", "Room 1401, Building 1, No. 300 Baiqiujiang Road, Qingpu District, Shanghai, China"],
+            ["Address", "Room 601-6, Jiangsu International Business Building, No. 8 Zhaofeng Road, Suzhou, Jiangsu, China"],
           ],
         },
       },
@@ -382,6 +406,18 @@ const translations = {
             { title: "価値観", body: "共生、進化、真実の追求、境界突破、光へ向かうこと、成し遂げること。現実の問題、長期蓄積、現実を変える行動を重視します。" },
           ],
         },
+        advisor: {
+          kicker: "技術顧問と産学連携",
+          title: "先端研究を実際の技術判断へ。",
+          lead: "SiMatrix は外部の上級技術顧問と連携し、アルゴリズムの方向性、技術ロードマップの評価、産学連携に長期的な専門視点を取り入れています。",
+          role: "上級技術顧問",
+          name: "殷鋭 教授",
+          field: "知能最適化・エッジ知能",
+          bio: "教授・博士課程指導教員として、知能情報処理、無線通信、エッジ知能、連合学習、デジタルツインを長年研究しています。SiMatrix の上級技術顧問として、アルゴリズムと技術ロードマップの評価、先端研究との接続、産学連携を支援します。",
+          metricsLabel: "主な実績データ",
+          metrics: [["3", "国家自然科学基金プロジェクトを主宰"], ["80+", "学術論文"], ["23", "特許および出願"]],
+          award: "主な受賞：2019年度浙江省科学技術進歩賞二等賞（第3位）",
+        },
         contact: {
           kicker: "お問い合わせ",
           title: "お問い合わせ",
@@ -393,7 +429,7 @@ const translations = {
             ["協業領域", "AI ネイティブ組織、エージェントのワークフロー、企業ツール接続、産業知能システム"],
             ["メール", "contact@simatrix.cn"],
             ["電話", "+86 150 2646 9395"],
-            ["住所", "中国上海市青浦区白虬江路300号1号棟1401室"],
+            ["住所", "中国江蘇省蘇州市兆豊路8号 江蘇国際商務ビル601-6室"],
           ],
         },
       },
@@ -412,7 +448,7 @@ const translations = {
             ["協業領域", "AI ネイティブ組織、エージェントのワークフロー、企業ツール接続、産業知能システム"],
             ["メール", "contact@simatrix.cn"],
             ["電話", "+86 150 2646 9395"],
-            ["住所", "中国上海市青浦区白虬江路300号1号棟1401室"],
+            ["住所", "中国江蘇省蘇州市兆豊路8号 江蘇国際商務ビル601-6室"],
           ],
         },
       },
@@ -520,6 +556,18 @@ const translations = {
             { title: "가치관", body: "공생, 진화, 진실 추구, 경계 돌파, 빛을 향함, 완수. 우리는 실제 문제, 장기 축적, 현실을 바꾸는 행동을 중시합니다." },
           ],
         },
+        advisor: {
+          kicker: "기술 고문 및 산학 협력",
+          title: "첨단 연구를 실제 기술 판단으로 연결합니다.",
+          lead: "SiMatrix는 외부 수석 기술 고문과 협력해 알고리즘 방향, 기술 로드맵 검토, 산학 협력에 장기적인 전문 관점을 더합니다.",
+          role: "수석 기술 고문",
+          name: "인루이 교수",
+          field: "지능형 최적화 및 엣지 지능",
+          bio: "교수이자 박사과정 지도교수로서 지능형 정보 처리, 무선 통신, 엣지 지능, 연합학습, 디지털 트윈을 오랫동안 연구해 왔습니다. SiMatrix 수석 기술 고문으로서 알고리즘과 기술 로드맵 검토, 첨단 연구 연계, 산학 협력을 지원합니다.",
+          metricsLabel: "주요 성과 지표",
+          metrics: [["3", "국가자연과학기금 과제 주관"], ["80+", "학술 논문"], ["23", "특허 및 출원"]],
+          award: "주요 수상: 2019년 저장성 과학기술진보상 2등상(3위)",
+        },
         contact: {
           kicker: "문의",
           title: "문의",
@@ -531,7 +579,7 @@ const translations = {
             ["협업 방향", "AI 네이티브 조직, 에이전트 워크플로, 기업 도구 연결, 산업 지능 시스템"],
             ["이메일", "contact@simatrix.cn"],
             ["전화", "+86 150 2646 9395"],
-            ["주소", "중국 상하이시 칭푸구 바이추장로 300번지 1동 1401호"],
+            ["주소", "중국 장쑤성 쑤저우시 자오펑로 8호 장쑤국제비즈니스빌딩 601-6호"],
           ],
         },
       },
@@ -550,7 +598,7 @@ const translations = {
             ["협업 방향", "AI 네이티브 조직, 에이전트 워크플로, 기업 도구 연결, 산업 지능 시스템"],
             ["이메일", "contact@simatrix.cn"],
             ["전화", "+86 150 2646 9395"],
-            ["주소", "중국 상하이시 칭푸구 바이추장로 300번지 1동 1401호"],
+            ["주소", "중국 장쑤성 쑤저우시 자오펑로 8호 장쑤국제비즈니스빌딩 601-6호"],
           ],
         },
       },
@@ -715,6 +763,21 @@ const setAbout = (page) => {
   setText("#about h2", page.about.title);
   setText("#about .section-lead", page.about.lead);
   setCards("#about .grid-3 .card", page.about.cards);
+  setText("#advisor .section-kicker", page.advisor.kicker);
+  setText("#advisor h2", page.advisor.title);
+  setText("#advisor .section-lead", page.advisor.lead);
+  setText("#advisor .advisor-role", page.advisor.role);
+  setText("#advisor .advisor-heading h3", page.advisor.name);
+  setText("#advisor .advisor-heading p", page.advisor.field);
+  setText("#advisor .advisor-bio", page.advisor.bio);
+  document.querySelector("#advisor .advisor-metrics")?.setAttribute("aria-label", page.advisor.metricsLabel);
+  document.querySelectorAll("#advisor .advisor-metric").forEach((metric, index) => {
+    const data = page.advisor.metrics[index];
+    if (!data) return;
+    setText("strong", data[0], metric);
+    setText("span", data[1], metric);
+  });
+  setText("#advisor .advisor-award", page.advisor.award);
 };
 
 const setContact = (page) => {

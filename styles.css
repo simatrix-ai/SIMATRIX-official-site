@@ -362,6 +362,77 @@ p {
   padding-left: 18px;
 }
 
+.advisor-section {
+  background:
+    radial-gradient(circle at 78% 18%, rgba(67, 232, 207, 0.08), transparent 34%),
+    var(--bg);
+}
+
+.advisor-profile {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.72fr) minmax(0, 1.5fr);
+  gap: clamp(36px, 6vw, 88px);
+  padding: 42px 0 38px;
+  border-top: 1px solid var(--cyan);
+  border-bottom: 1px solid var(--line);
+}
+
+.advisor-role {
+  color: var(--cyan);
+  font-size: 13px;
+  font-weight: 760;
+  letter-spacing: 0.08em;
+  margin-bottom: 18px;
+}
+
+.advisor-heading h3 {
+  font-size: clamp(28px, 3.2vw, 42px);
+  line-height: 1.15;
+  margin-bottom: 12px;
+}
+
+.advisor-heading p,
+.advisor-bio,
+.advisor-award,
+.advisor-metric span {
+  color: var(--muted);
+  line-height: 1.72;
+}
+
+.advisor-bio {
+  font-size: 17px;
+  max-width: 780px;
+}
+
+.advisor-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 34px 0 28px;
+}
+
+.advisor-metric {
+  padding-top: 18px;
+  border-top: 1px solid var(--panel-line);
+}
+
+.advisor-metric strong {
+  display: block;
+  color: var(--text);
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.advisor-metric span {
+  display: block;
+  font-size: 14px;
+}
+
+.advisor-award {
+  font-size: 14px;
+}
+
 .capability-row {
   display: grid;
   grid-template-columns: 180px minmax(0, 1fr) minmax(260px, 0.72fr);
@@ -566,9 +637,14 @@ p {
   }
 
   .capability-row,
-  .timeline-item {
+  .timeline-item,
+  .advisor-profile {
     grid-template-columns: 1fr;
     gap: 12px;
+  }
+
+  .advisor-heading {
+    padding-bottom: 20px;
   }
 }
 
@@ -602,6 +678,19 @@ p {
 
   .info-list {
     margin-left: 0;
+  }
+
+  .advisor-metrics {
+    gap: 12px;
+  }
+
+  .advisor-metric strong {
+    font-size: 30px;
+  }
+
+  .advisor-metric span {
+    font-size: 12px;
+    line-height: 1.5;
   }
 
   .footer-inner {
